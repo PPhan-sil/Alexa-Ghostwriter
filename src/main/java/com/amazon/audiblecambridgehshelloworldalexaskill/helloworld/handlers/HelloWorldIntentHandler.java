@@ -253,7 +253,6 @@ public class HelloWorldIntentHandler implements RequestHandler {
         // log slot values including request id and time for debugging
         for(String key : slots.keySet()) {
             log(input, String.format("Slot value key=%s, value = %s", key, slots.get(key).toString()));
-            log(input, String.format("Slot value key=%s, value = %s", key, slots.get(key).toString()));
         }
     }
 
